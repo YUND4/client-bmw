@@ -144,9 +144,10 @@
         </div>
     </div>
     <div class="relative hidden md:flex flex-auto items-center justify-center w-1/2 h-full p-16 lg:px-28 overflow-hidden bg-gray-800 dark:border-l">
-        <video autoplay muted loop id="myVideo">
-            <source src="rain.mp4" type="video/mp4">
-          </video>
+        <!-- Video como fondo -->
+        <video #videoPlayer autoplay muted class="absolute top-0 left-0 w-full h-full object-cover z-0">
+            <source src="assets/videos/sigin-in-intro.mp4" type="video/mp4">
+        </video>
         <!-- @formatter:on -->
         <!-- Content -->
         <div class="z-10 relative w-full max-w-2xl">
