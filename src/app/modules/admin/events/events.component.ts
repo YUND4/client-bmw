@@ -14,6 +14,7 @@ import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { RouterLink } from '@angular/router';
 import { FuseCardComponent } from '@fuse/components/card';
+import { environment } from 'environments/environment';
 
 
 @Component({
@@ -25,6 +26,8 @@ import { FuseCardComponent } from '@fuse/components/card';
 })
 export class EventsComponent
 {
+
+    pathStorage = environment.pathStorage
     /**
      * Constructor
      */
